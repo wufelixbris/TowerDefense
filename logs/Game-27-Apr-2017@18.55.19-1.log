@@ -1,0 +1,253 @@
+18:54:54.862 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - Logging System Info
+18:54:54.864 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - CPU cores: 4
+18:54:54.865 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - Free Memory: 104MB
+18:54:54.865 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - Max Memory: 1821MB
+18:54:54.865 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - Total Memory: 125MB
+18:54:54.865 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - System Properties:
+18:54:54.866 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.specification.version=1.8
+18:54:54.866 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.fxgl.version=0.3.1
+18:54:54.866 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - file.encoding=UTF-8
+18:54:54.866 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.fs.savefile.ext=.sav
+18:54:54.866 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - javafx.version=8.0.121
+18:54:54.866 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.url.googleforms=https://goo.gl/forms/6wrMnOBxTE1fEpOy2
+18:54:54.867 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.url.github=https://github.com/AlmasB/FXGL
+18:54:54.867 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.dev.showbbox=false
+18:54:54.867 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+18:54:54.867 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - line.separator=
+
+18:54:54.867 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.fs.profiledir=profiles/
+18:54:54.867 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - user.dir=/Users/FelixWu/IdeaProjects/TowerDefence
+18:54:54.867 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.ext.dirs=/Users/FelixWu/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+18:54:54.867 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.version.check.days=7
+18:54:54.867 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - os.arch=x86_64
+18:54:54.867 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+18:54:54.867 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.physics.ppm=50.0
+18:54:54.867 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+18:54:54.867 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.url.pom=https://raw.githubusercontent.com/AlmasB/FXGL/master/pom.xml
+18:54:54.867 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.io.tmpdir=/var/folders/8r/yhtjxhq56vzdzcyr91zp1r_00000gn/T/
+18:54:54.867 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.cpu.endian=little
+18:54:54.867 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.os.patch.level=unknown
+18:54:54.868 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vm.specification.version=1.8
+18:54:54.868 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.url.surveymonkey=https://www.surveymonkey.co.uk/r/BH6LLPM
+18:54:54.868 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vm.specification.name=Java Virtual Machine Specification
+18:54:54.870 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.ui.icon.name=fxgl_icon.png
+18:54:54.870 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - idea.launcher.port=7532
+18:54:54.870 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.java.command=com.intellij.rt.execution.application.AppMain com.felixwu.td.Main
+18:54:54.870 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/tools.jar:/Users/FelixWu/IdeaProjects/TowerDefence/out/production/TowerDefence:/Users/FelixWu/Downloads/fxgl-0.3.1-uber.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar
+18:54:54.870 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.runtime.name=Java(TM) SE Runtime Environment
+18:54:54.870 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.ui.font=Copperplate_Gothic_Light_Regular.ttf
+18:54:54.870 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vm.vendor=Oracle Corporation
+18:54:54.870 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - gopherProxySet=false
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.library.path=/Users/FelixWu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vendor.url=http://java.oracle.com/
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.sound.menu.back=menu/back.wav
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.ui.mono.font=lucida_console.ttf
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.specification.vendor=Oracle Corporation
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - user.home=/Users/FelixWu
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - awt.toolkit=sun.lwawt.macosx.LWCToolkit
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.io.unicode.encoding=UnicodeBig
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.asset.cache.size=35
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.fs.profilename=user.profile
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.fs.savedir=saves/
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vm.version=25.121-b13
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - path.separator=:
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - os.version=10.11.6
+18:54:54.871 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vm.info=mixed mode
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - user.country=US
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.class.version=52.0
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - file.separator=/
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.specification.name=Java Platform API Specification
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.fs.datafile.ext=.dat
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.cpu.isalist=
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.jnu.encoding=UTF-8
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - file.encoding.pkg=sun.io
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.arch.data.model=64
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - user.timezone=Europe/London
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.version=1.8.0_121
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - user.language=en
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - idea.launcher.bin.path=/Applications/IntelliJ IDEA CE.app/Contents/bin
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - javafx.runtime.version=8.0.121-b13
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.sound.menu.select=menu/select.wav
+18:54:54.872 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.sound.menu.press=menu/press.wav
+18:54:54.873 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.sound.notification=core/notification.wav
+18:54:54.873 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - user.name=FelixWu
+18:54:54.873 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.pooling.initialSize=128
+18:54:54.873 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.runtime.version=1.8.0_121-b13
+18:54:54.873 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vm.specification.vendor=Oracle Corporation
+18:54:54.873 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - user.country.format=HK
+18:54:54.873 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes
+18:54:54.873 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - os.name=Mac OS X
+18:54:54.873 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.ui.css=fxgl.css
+18:54:54.873 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+18:54:54.873 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.url.storage=https://raw.githubusercontent.com/AlmasB/git-server/master/storage/
+18:54:54.873 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.java.launcher=SUN_STANDARD
+18:54:54.873 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vendor=Oracle Corporation
+18:54:54.877 [FXGL Launcher Thread     ] DEBUG FXGLLoggerFactory    - Service [LoggerFactory] initialized
+18:54:54.878 [FXGL Launcher Thread     ] DEBUG FXGL                 - FXGL logger initialized
+18:54:54.878 [FXGL Launcher Thread     ] DEBUG FXGL                 - Loading FXGL system data
+18:54:54.881 [FXGL Launcher Thread     ] DEBUG IOTask               - Executing task: readDataTask(system/fxgl.bundle)
+18:54:54.889 [FXGL Launcher Thread     ] DEBUG FS                   - Reading from: system/fxgl.bundle
+18:54:54.901 [FXGL Launcher Thread     ] DEBUG IOTask               - Task succeeded: readDataTask(system/fxgl.bundle)
+18:54:54.901 [FXGL Launcher Thread     ] DEBUG Bundle               - Logging bundle: FXGL
+18:54:54.902 [FXGL Launcher Thread     ] DEBUG Bundle               - FXGL.offline.timer.version.check=2017-04-27T12:29:57.078
+18:54:54.902 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - FXGL configuration complete
+18:54:54.902 [FXGL Launcher Thread     ] INFO  FXGLApplication      - FXGL configuration took:  1.681 sec
+18:54:54.904 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Logging game settings
+Title: TowerDefense
+Version: 1.0
+Width: 800
+Height: 600
+Fullscreen: false
+Intro: false
+Menus: false
+Profiling: false
+App Mode: DEVELOPER
+Menu Style: FXGL_DEFAULT
+Menu Key: ESCAPE
+Services: []
+18:54:54.906 [JavaFX Application Thread] DEBUG FXGLApplication      - Running task: UpdaterTask
+18:54:54.923 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Configuring GameApplication
+18:54:54.926 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Running task: PreInitTask
+18:54:54.933 [FXGL Launcher Thread     ] DEBUG FXGLExceptionHandler - Service [ExceptionHandler] initialized
+18:54:54.934 [FXGL Launcher Thread     ] DEBUG FXGLEventBus         - Service [EventBus] initialized
+18:54:54.938 [FXGL Launcher Thread     ] DEBUG FXGLExecutor         - Service [Executor] initialized
+18:54:54.938 [FXGL Launcher Thread     ] DEBUG PreInitTask          - Injecting gameWorld & physicsWorld
+18:54:54.947 [FXGL Launcher Thread     ] DEBUG GameWorld            - Game world initialized
+18:54:55.002 [FXGL Launcher Thread     ] DEBUG FXGLPooler           - Service [Pooler] initialized with default size = 128
+18:54:55.002 [FXGL Launcher Thread     ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=600, physics.ppm=50.0
+18:54:55.003 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Service [Input] initialized
+18:54:55.028 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Registered new binding: Screenshot - P
+18:54:55.028 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Registered new binding: Dev Options - CTRL+0
+18:54:55.029 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Registered new binding: Place Tower A - PRIMARY
+18:54:55.030 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Running task: InitScenesTask
+18:54:55.035 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Service [AssetLoader] initialized: cacheSize=35
+18:54:55.035 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/cursors/fxgl_default.png
+18:54:55.097 [FXGL Launcher Thread     ] DEBUG GameScene            - Game scene initialized: 800x600
+18:54:55.097 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/cursors/fxgl_default.png
+18:54:55.110 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/sounds/core/notification.wav
+18:54:55.171 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/sounds/menu/select.wav
+18:54:55.172 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/sounds/menu/back.wav
+18:54:55.174 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/sounds/menu/press.wav
+18:54:55.176 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/fonts/Copperplate_Gothic_Light_Regular.ttf
+18:54:55.192 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/fonts/lucida_console.ttf
+18:54:55.196 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/css/fxgl.css
+18:54:55.197 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/icons/fxgl_icon.png
+18:54:55.222 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/css/fxgl_dark.css
+18:54:55.235 [FXGL Launcher Thread     ] DEBUG FXGLDisplay          - Target size: DoubleProperty [value: 800.0] x DoubleProperty [value: 600.0] @ 1.0
+18:54:55.235 [FXGL Launcher Thread     ] DEBUG FXGLDisplay          - New size:    800.0 x 600.0 @ DoubleProperty [value: 1.0]
+18:54:55.235 [FXGL Launcher Thread     ] DEBUG FXGLDisplay          - Service [Display] initialized
+18:54:55.236 [FXGL Launcher Thread     ] DEBUG FXGLDisplay          - Using CSS: CSS(externalForm=jar:file:/Users/FelixWu/Downloads/fxgl-0.3.1-uber.jar!/assets/ui/css/fxgl_dark.css)
+18:54:55.237 [FXGL Launcher Thread     ] DEBUG InitScenesTask       - Injecting loadingScene & gameScene
+18:54:55.237 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Running task: InitEventHandlersTask
+18:54:55.240 [FXGL Launcher Thread     ] DEBUG FXGLMasterTimer      - Service [MasterTimer] initialized
+18:54:55.243 [FXGL Launcher Thread     ] DEBUG FXGLAudioPlayer      - Service [AudioPlayer] initialized
+18:54:55.244 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - scanForServiceListeners
+18:54:55.244 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - FXGLListener: interface com.almasb.fxgl.service.MasterTimer
+18:54:55.244 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - FXGLListener: interface com.almasb.fxgl.service.Input
+18:54:55.245 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: interface com.almasb.fxgl.service.AudioPlayer
+18:54:55.247 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: interface com.almasb.fxgl.service.MasterTimer
+18:54:55.247 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: interface com.almasb.fxgl.service.Input
+18:54:55.248 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: interface com.almasb.fxgl.service.Display
+18:54:55.248 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: class com.almasb.fxgl.gameplay.AchievementManager
+18:54:55.248 [FXGL Launcher Thread     ] DEBUG AchievementManager   - Service [AchievementManager] initialized
+18:54:55.248 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: class com.almasb.fxgl.service.impl.quest.FXGLQuestServiceProvider
+18:54:55.249 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - NotificationListener: interface com.almasb.fxgl.service.AudioPlayer
+18:54:55.249 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - AchievementListener: interface com.almasb.fxgl.service.NotificationService
+18:54:55.252 [FXGL Launcher Thread     ] DEBUG SlidingNotificationService - Service [NotificationService] initialized
+18:54:55.256 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Running task: InitProfilerTask
+18:54:55.258 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Starting new game
+18:54:55.261 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Initializing App
+18:54:55.261 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Pausing main loop
+18:54:55.263 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - State: STARTUP -> PAUSED
+18:54:55.264 [FXGL Launcher Thread     ] DEBUG FXGLMasterTimer      - Stopping master timer
+18:54:55.264 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Clearing active input actions
+18:54:55.264 [FXGL Launcher Thread     ] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+18:54:55.265 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Resetting FXGL application
+18:54:55.265 [FXGL Launcher Thread     ] DEBUG GameWorld            - Resetting game world
+18:54:55.265 [FXGL Launcher Thread     ] DEBUG EntityWorld          - Resetting entity world
+18:54:55.266 [FXGL Launcher Thread     ] DEBUG PhysicsWorld         - Resetting physics world
+18:54:55.266 [FXGL Launcher Thread     ] DEBUG GameScene            - Resetting game scene
+18:54:55.266 [FXGL Launcher Thread     ] DEBUG FXGLMasterTimer      - Resetting ticks and clearing all actions
+18:54:55.266 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Clearing active input actions
+18:54:55.266 [FXGL Launcher Thread     ] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=RESET]
+18:54:55.341 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - State: PAUSED -> LOADING
+18:54:55.379 [FXGL Launcher Thread     ] INFO  FXGLApplication      - Game configuration took:  0.454 sec
+18:54:55.380 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Assets
+18:54:55.382 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Game
+18:54:55.382 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Injecting gameState
+18:54:55.463 [JavaFX Application Thread] DEBUG FXGLDisplay          - Showing stage
+18:54:55.463 [JavaFX Application Thread] DEBUG FXGLDisplay          - Root size: 800.0x600.0
+18:54:55.463 [JavaFX Application Thread] DEBUG FXGLDisplay          - Scene size: 800.0x600.0
+18:54:55.463 [JavaFX Application Thread] DEBUG FXGLDisplay          - Stage size: 800.0x622.0
+18:54:55.520 [FastClasspathScanner-worker-0] DEBUG InitAppTask          - @SetEntityFactory: class com.felixwu.td.TdFactory
+18:54:55.541 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Physics
+18:54:55.542 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing UI
+18:54:55.542 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initialization Complete
+18:54:55.542 [FXGL Background Thread 1 ] INFO  InitAppTask          - Game initialization took: 0.162 sec
+18:54:55.592 [JavaFX Application Thread] DEBUG FXGLApplication      - Resuming main loop
+18:54:55.593 [JavaFX Application Thread] DEBUG FXGLApplication      - State: LOADING -> PLAYING
+18:54:55.597 [JavaFX Application Thread] DEBUG FXGLMasterTimer      - Starting master timer
+18:54:55.597 [JavaFX Application Thread] DEBUG FXGLInput            - Clearing active input actions
+18:54:55.597 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=RESUME]
+18:54:56.734 [JavaFX Application Thread] DEBUG GameScene            - Creating render group for layer: TOP(2147483647)
+18:55:00.100 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: com.felixwu.td.event.EnemyKilled[source=javafx.event.Event$$Lambda$73/1947480306@2c71f5dd]
+18:55:00.100 [JavaFX Application Thread] FATAL FXGLExceptionHandler - Uncaught Exception:
+18:55:00.101 [JavaFX Application Thread] FATAL FXGLExceptionHandler - 
+
+Exception occurred: java.lang.IllegalStateException : Attempted access a cleaned entity!
+E: com.almasb.fxgl.ecs.Entity.checkValid(Entity.java:620)
+E: com.almasb.fxgl.ecs.Entity.getComponentUnsafe(Entity.java:297)
+E: com.almasb.fxgl.entity.Entities.getPosition(Entities.java:66)
+E: com.felixwu.td.Main.onEnemyKilled(Main.java:111)
+E: com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218)
+E: com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+E: com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)
+E: com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+E: com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+E: com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+E: com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+E: com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+E: com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+E: javafx.event.Event.fireEvent(Event.java:198)
+E: javafx.scene.Node.fireEvent(Node.java:8413)
+E: com.almasb.fxgl.core.event.FXEventBus.fireEvent(FXEventBus.java:54)
+E: com.almasb.fxgl.service.impl.event.FXGLEventBus.fireEvent(FXGLEventBus.kt:68)
+E: com.felixwu.td.collision.BulletEnemyHandler.onCollisionBegin(BulletEnemyHandler.java:24)
+E: com.almasb.fxgl.physics.CollisionPair.collisionBegin(CollisionPair.java:64)
+E: com.almasb.fxgl.physics.PhysicsWorld.collisionBeginFor(PhysicsWorld.java:424)
+E: com.almasb.fxgl.physics.PhysicsWorld.checkCollisions(PhysicsWorld.java:398)
+E: com.almasb.fxgl.physics.PhysicsWorld.onWorldUpdate(PhysicsWorld.java:261)
+E: com.almasb.fxgl.ecs.EntityWorld.notifyWorldUpdated(EntityWorld.java:230)
+E: com.almasb.fxgl.ecs.EntityWorld.update(EntityWorld.java:162)
+E: com.almasb.fxgl.entity.GameWorld.onUpdateEvent(GameWorld.java:75)
+E: com.almasb.fxgl.service.impl.timer.FXGLMasterTimer.handle(FXGLMasterTimer.kt:145)
+E: javafx.animation.AnimationTimer$AnimationTimerReceiver.lambda$handle$484(AnimationTimer.java:57)
+E: java.security.AccessController.doPrivileged(Native Method)
+E: javafx.animation.AnimationTimer$AnimationTimerReceiver.handle(AnimationTimer.java:56)
+E: com.sun.scenario.animation.AbstractMasterTimer.timePulseImpl(AbstractMasterTimer.java:357)
+E: com.sun.scenario.animation.AbstractMasterTimer$MainLoop.run(AbstractMasterTimer.java:267)
+E: com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:506)
+E: com.sun.javafx.tk.quantum.QuantumToolkit.pulse(QuantumToolkit.java:490)
+E: com.sun.javafx.tk.quantum.QuantumToolkit.lambda$runToolkit$404(QuantumToolkit.java:319)
+E: com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+
+18:55:00.101 [JavaFX Application Thread] FATAL FXGLExceptionHandler - Application will now exit
+18:55:00.101 [JavaFX Application Thread] DEBUG FXGLApplication      - Pausing main loop
+18:55:00.101 [JavaFX Application Thread] DEBUG FXGLApplication      - State: PLAYING -> PAUSED
+18:55:00.101 [JavaFX Application Thread] DEBUG FXGLMasterTimer      - Stopping master timer
+18:55:00.101 [JavaFX Application Thread] DEBUG FXGLInput            - Clearing active input actions
+18:55:00.101 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+18:55:19.333 [JavaFX Application Thread] DEBUG FXGLApplication      - Exiting FXGL application
+18:55:19.335 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=EXIT]
+18:55:19.335 [JavaFX Application Thread] DEBUG FXGL                 - Saving FXGL system data
+18:55:19.336 [JavaFX Application Thread] DEBUG IOTask               - Executing task: writeDataTask(system/fxgl.bundle)
+18:55:19.338 [JavaFX Application Thread] DEBUG FS                   - Writing to: system/fxgl.bundle
+18:55:19.340 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: writeDataTask(system/fxgl.bundle)
+18:55:19.341 [JavaFX Application Thread] DEBUG FXGLApplication      - Closing FXGL logger and exiting JavaFX
