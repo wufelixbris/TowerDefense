@@ -1,10 +1,20 @@
 package com.felixwu.td;
+
+import com.almasb.fxgl.ai.pathfinding.AStarGrid;
+import com.almasb.fxgl.ai.pathfinding.NodeState;
 import com.almasb.fxgl.app.GameApplication;
+import com.almasb.fxgl.app.MenuEventHandler;
+import com.almasb.fxgl.ecs.Entity;
 import com.almasb.fxgl.entity.*;
+import com.almasb.fxgl.gameplay.Level;
 import com.almasb.fxgl.input.UserAction;
+import com.almasb.fxgl.parser.text.TextLevelParser;
+import com.almasb.fxgl.scene.menu.MenuEvent;
+import com.almasb.fxgl.scene.menu.MenuStyle;
 import com.almasb.fxgl.service.Input;
 import com.almasb.fxgl.service.UIFactory;
 import com.almasb.fxgl.settings.GameSettings;
+import com.almasb.fxgl.settings.MenuItem;
 import com.felixwu.td.collision.BulletEnemyHandler;
 import com.felixwu.td.event.EnemyKilled;
 import com.felixwu.td.event.EnemyReachedGoal;
@@ -18,33 +28,35 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 import javafx.util.Duration;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class Main extends GameApplication{
     //TODO: read from level data
     private int levelEnemies = 10;
     private IntegerProperty numEnemies;
-    private javafx.geometry.Point2D enemySpawnPoint = new Point2D(50, 0);
+    private Point2D enemySpawnPoint = new Point2D(0, 40);
 
-    private List<Point2D> waypoints = new ArrayList<>();
+    private List<Entity> paths;
 
-    public List<Point2D> getwaypoints() {
-        return new ArrayList<>(waypoints);
+    private AStarGrid grid;
+    public AStarGrid getGrid() {
+        return grid;
     }
+
 
     @Override
     protected void initSettings(GameSettings gameSettings) {
         gameSettings.setTitle("TowerDefense");
         gameSettings.setVersion("1.0");
-        gameSettings.setWidth(800);
-        gameSettings.setHeight(600);
+        gameSettings.setWidth(Config.MAP_WIDTH*Config.BLOCK_SIZE);
+        gameSettings.setHeight(Config.MAP_HEIGHT*Config.BLOCK_SIZE);
         gameSettings.setIntroEnabled(false);
         gameSettings.setMenuEnabled(false);
         gameSettings.setProfilingEnabled(false);
         gameSettings.setCloseConfirmation(false);
     }
+
+
 
     @Override
     protected void initInput() {
@@ -69,15 +81,28 @@ public class Main extends GameApplication{
     }
 
     @Override
+    protected void initGameVars(Map<String, Object> vars) {
+        vars.put("gold", Config.START_GOLD);
+    }
+
+    @Override
     protected void initGame() {
-        //TODO: read this from external level data
-        waypoints.addAll(Arrays.asList(
-                new Point2D(700, 0),
-                new Point2D(700, 300),
-                new Point2D(50, 300),
-                new Point2D(50, 550),
-                new Point2D(700, 550)
-        ));
+
+        TextLevelParser parser = new TextLevelParser(getGameWorld().getEntityFactory());
+        Level level = parser.parse("level1.txt");
+        getGameWorld().setLevel(level);
+        level.getEntities().clear();
+
+        grid = new AStarGrid(Config.MAP_WIDTH, Config.MAP_HEIGHT);
+        getGameWorld().getEntitiesByType(TdType.BLOCK)
+                .stream()
+                .map(e->Entities.getPosition(e).getValue())
+                .forEach(point ->{
+                    int x = (int)point.getX()/Config.BLOCK_SIZE;
+                    int y = (int)point.getY()/Config.BLOCK_SIZE;
+                    grid.setNodeState(x, y, NodeState.NOT_WALKABLE);
+                });
+
 
         numEnemies = new SimpleIntegerProperty(levelEnemies);
         BooleanProperty enemiesLeft = new SimpleBooleanProperty();
@@ -95,9 +120,27 @@ public class Main extends GameApplication{
     }
 
     private void placeTower(){
-        getGameWorld().spawn("Tower",
-                new SpawnData(getInput().getMouseXWorld(), getInput().getMouseYWorld())
-        );
+
+        if(getGameState().getInt("gold")<=0){
+            return;
+        }
+
+        if (paths == null) {
+            paths = getGameWorld().getEntitiesByType(TdType.PATH);
+        }
+
+        int x=((int)getInput().getMouseXWorld()/Config.BLOCK_SIZE)*Config.BLOCK_SIZE;
+        int y=((int)getInput().getMouseYWorld()/Config.BLOCK_SIZE)*Config.BLOCK_SIZE;
+
+        for(Entity path : paths){
+            Point2D position = new Point2D(Entities.getPosition(path).getX(), Entities.getPosition(path).getY());
+            if(position.getX()==x && position.getY()==y){
+                return;
+            }
+        }
+
+        getGameWorld().spawn("Tower", new SpawnData(x, y));
+        getGameState().increment("gold", Config.TOWER_GOLD);
     }
 
     private void onEnemyKilled(EnemyKilled event){
@@ -114,11 +157,11 @@ public class Main extends GameApplication{
         view.setTranslateX(position.getX());
         view.setTranslateY(position.getY()+20);
         getGameScene().addGameView(view);
-
+        getGameState().increment("gold", Config.KILL_GOLD);
     }
 
     private void gameover(){
-        getDisplay().showConfirmationBox("Demo over, Thanks for Playing!", yes->{
+        getDisplay().showConfirmationBox("Demo over, Thanks for playing", yes->{
             exit();
         });
     }

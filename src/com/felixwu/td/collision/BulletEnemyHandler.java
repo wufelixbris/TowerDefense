@@ -4,7 +4,9 @@ import com.almasb.fxgl.app.FXGL;
 import com.almasb.fxgl.ecs.Entity;
 import com.almasb.fxgl.entity.GameEntity;
 import com.almasb.fxgl.physics.CollisionHandler;
+import com.felixwu.td.Config;
 import com.felixwu.td.TdType;
+import com.felixwu.td.component.HPComponent;
 import com.felixwu.td.event.EnemyKilled;
 
 /**
@@ -19,8 +21,12 @@ public class BulletEnemyHandler extends CollisionHandler {
     @Override
     protected void onCollisionBegin(Entity bullet, Entity enemy) {
         bullet.removeFromWorld();
-        //TODO: add HP/Damage system
-        FXGL.getEventBus().fireEvent(new EnemyKilled((GameEntity) enemy));
-        enemy.removeFromWorld();
+        HPComponent hp = enemy.getComponentUnsafe(HPComponent.class);
+        hp.setValue(hp.getValue() - Config.BULLET_DAMAGE);
+        if(hp.getValue()==0){
+            FXGL.getEventBus().fireEvent(new EnemyKilled((GameEntity) enemy));
+            enemy.removeFromWorld();
+        }
+
     }
 }

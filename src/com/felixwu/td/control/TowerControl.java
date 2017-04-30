@@ -13,7 +13,6 @@ import com.felixwu.td.TdType;
 import javafx.util.Duration;
 
 import javafx.geometry.Point2D;
-import java.time.LocalTime;
 
 /**
  * Created by FelixWu on 27/4/2017.
