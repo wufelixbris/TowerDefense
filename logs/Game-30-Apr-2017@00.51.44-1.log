@@ -1,0 +1,364 @@
+00:51:31.266 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - Logging System Info
+00:51:31.269 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - CPU cores: 4
+00:51:31.271 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - Free Memory: 77MB
+00:51:31.271 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - Max Memory: 1821MB
+00:51:31.272 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - Total Memory: 97MB
+00:51:31.273 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - System Properties:
+00:51:31.274 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.specification.version=1.8
+00:51:31.274 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.fxgl.version=0.3.1
+00:51:31.274 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - file.encoding=UTF-8
+00:51:31.274 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.fs.savefile.ext=.sav
+00:51:31.274 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - javafx.version=8.0.121
+00:51:31.274 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.url.googleforms=https://goo.gl/forms/6wrMnOBxTE1fEpOy2
+00:51:31.275 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.url.github=https://github.com/AlmasB/FXGL
+00:51:31.275 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.dev.showbbox=false
+00:51:31.275 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+00:51:31.275 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - line.separator=
+
+00:51:31.275 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.fs.profiledir=profiles/
+00:51:31.275 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - user.dir=/Users/FelixWu/IdeaProjects/TowerDefence
+00:51:31.275 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.ext.dirs=/Users/FelixWu/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+00:51:31.275 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.version.check.days=7
+00:51:31.276 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - os.arch=x86_64
+00:51:31.276 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+00:51:31.276 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.physics.ppm=50.0
+00:51:31.276 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+00:51:31.276 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.url.pom=https://raw.githubusercontent.com/AlmasB/FXGL/master/pom.xml
+00:51:31.276 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.io.tmpdir=/var/folders/8r/yhtjxhq56vzdzcyr91zp1r_00000gn/T/
+00:51:31.276 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.cpu.endian=little
+00:51:31.276 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.os.patch.level=unknown
+00:51:31.276 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vm.specification.version=1.8
+00:51:31.276 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.url.surveymonkey=https://www.surveymonkey.co.uk/r/BH6LLPM
+00:51:31.276 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vm.specification.name=Java Virtual Machine Specification
+00:51:31.276 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.ui.icon.name=fxgl_icon.png
+00:51:31.276 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - idea.launcher.port=7539
+00:51:31.277 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.java.command=com.intellij.rt.execution.application.AppMain com.felixwu.td.Main
+00:51:31.277 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/tools.jar:/Users/FelixWu/IdeaProjects/TowerDefence/out/production/TowerDefence:/Users/FelixWu/Downloads/fxgl-0.3.1-uber.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar
+00:51:31.277 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.runtime.name=Java(TM) SE Runtime Environment
+00:51:31.278 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.ui.font=Copperplate_Gothic_Light_Regular.ttf
+00:51:31.279 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vm.vendor=Oracle Corporation
+00:51:31.279 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - gopherProxySet=false
+00:51:31.279 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.library.path=/Users/FelixWu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+00:51:31.279 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vendor.url=http://java.oracle.com/
+00:51:31.279 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.sound.menu.back=menu/back.wav
+00:51:31.279 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.ui.mono.font=lucida_console.ttf
+00:51:31.279 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.specification.vendor=Oracle Corporation
+00:51:31.279 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - user.home=/Users/FelixWu
+00:51:31.280 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+00:51:31.280 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+00:51:31.280 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - awt.toolkit=sun.lwawt.macosx.LWCToolkit
+00:51:31.280 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.io.unicode.encoding=UnicodeBig
+00:51:31.280 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+00:51:31.280 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.asset.cache.size=35
+00:51:31.280 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.fs.profilename=user.profile
+00:51:31.280 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.fs.savedir=saves/
+00:51:31.280 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vm.version=25.121-b13
+00:51:31.280 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - path.separator=:
+00:51:31.281 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - os.version=10.11.6
+00:51:31.281 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vm.info=mixed mode
+00:51:31.281 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre
+00:51:31.281 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - user.country=US
+00:51:31.281 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.class.version=52.0
+00:51:31.281 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - file.separator=/
+00:51:31.281 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.specification.name=Java Platform API Specification
+00:51:31.281 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.fs.datafile.ext=.dat
+00:51:31.281 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.cpu.isalist=
+00:51:31.281 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.jnu.encoding=UTF-8
+00:51:31.281 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - file.encoding.pkg=sun.io
+00:51:31.281 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+00:51:31.281 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed
+00:51:31.282 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.arch.data.model=64
+00:51:31.282 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - user.timezone=Europe/London
+00:51:31.282 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.version=1.8.0_121
+00:51:31.282 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib
+00:51:31.282 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - user.language=en
+00:51:31.282 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - idea.launcher.bin.path=/Applications/IntelliJ IDEA CE.app/Contents/bin
+00:51:31.282 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - javafx.runtime.version=8.0.121-b13
+00:51:31.282 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.sound.menu.select=menu/select.wav
+00:51:31.282 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.sound.menu.press=menu/press.wav
+00:51:31.282 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.sound.notification=core/notification.wav
+00:51:31.282 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - user.name=FelixWu
+00:51:31.282 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.pooling.initialSize=128
+00:51:31.282 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.runtime.version=1.8.0_121-b13
+00:51:31.282 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vm.specification.vendor=Oracle Corporation
+00:51:31.282 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - user.country.format=HK
+00:51:31.283 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes
+00:51:31.283 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - os.name=Mac OS X
+00:51:31.283 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.ui.css=fxgl.css
+00:51:31.283 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+00:51:31.283 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - FXGL.url.storage=https://raw.githubusercontent.com/AlmasB/git-server/master/storage/
+00:51:31.283 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - sun.java.launcher=SUN_STANDARD
+00:51:31.283 [ForkJoinPool.commonPool-worker-1] DEBUG FXGLLogger           - java.vendor=Oracle Corporation
+00:51:31.291 [FXGL Launcher Thread     ] DEBUG FXGLLoggerFactory    - Service [LoggerFactory] initialized
+00:51:31.291 [FXGL Launcher Thread     ] DEBUG FXGL                 - FXGL logger initialized
+00:51:31.291 [FXGL Launcher Thread     ] DEBUG FXGL                 - Loading FXGL system data
+00:51:31.295 [FXGL Launcher Thread     ] DEBUG IOTask               - Executing task: readDataTask(system/fxgl.bundle)
+00:51:31.307 [FXGL Launcher Thread     ] DEBUG FS                   - Reading from: system/fxgl.bundle
+00:51:31.325 [FXGL Launcher Thread     ] DEBUG IOTask               - Task succeeded: readDataTask(system/fxgl.bundle)
+00:51:31.325 [FXGL Launcher Thread     ] DEBUG Bundle               - Logging bundle: FXGL
+00:51:31.326 [FXGL Launcher Thread     ] DEBUG Bundle               - FXGL.offline.timer.version.check=2017-04-27T12:29:57.078
+00:51:31.326 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - FXGL configuration complete
+00:51:31.326 [FXGL Launcher Thread     ] INFO  FXGLApplication      - FXGL configuration took:  1.692 sec
+00:51:31.328 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Logging game settings
+Title: TowerDefense
+Version: 1.0
+Width: 400
+Height: 280
+Fullscreen: false
+Intro: false
+Menus: false
+Profiling: false
+App Mode: DEVELOPER
+Menu Style: FXGL_DEFAULT
+Menu Key: ESCAPE
+Services: []
+00:51:31.332 [JavaFX Application Thread] DEBUG FXGLApplication      - Running task: UpdaterTask
+00:51:31.354 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Configuring GameApplication
+00:51:31.355 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Running task: PreInitTask
+00:51:31.364 [FXGL Launcher Thread     ] DEBUG FXGLExceptionHandler - Service [ExceptionHandler] initialized
+00:51:31.365 [FXGL Launcher Thread     ] DEBUG FXGLEventBus         - Service [EventBus] initialized
+00:51:31.369 [FXGL Launcher Thread     ] DEBUG FXGLExecutor         - Service [Executor] initialized
+00:51:31.369 [FXGL Launcher Thread     ] DEBUG PreInitTask          - Injecting gameWorld & physicsWorld
+00:51:31.379 [FXGL Launcher Thread     ] DEBUG GameWorld            - Game world initialized
+00:51:31.483 [FXGL Launcher Thread     ] DEBUG FXGLPooler           - Service [Pooler] initialized with default size = 128
+00:51:31.484 [FXGL Launcher Thread     ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=280, physics.ppm=50.0
+00:51:31.488 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Service [Input] initialized
+00:51:31.522 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Registered new binding: Screenshot - P
+00:51:31.524 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Registered new binding: Dev Options - CTRL+0
+00:51:31.525 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Registered new binding: Place Tower A - PRIMARY
+00:51:31.527 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Running task: InitScenesTask
+00:51:31.544 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Service [AssetLoader] initialized: cacheSize=35
+00:51:31.549 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/cursors/fxgl_default.png
+00:51:31.682 [FXGL Launcher Thread     ] DEBUG GameScene            - Game scene initialized: 400x280
+00:51:31.682 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/cursors/fxgl_default.png
+00:51:31.697 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/sounds/core/notification.wav
+00:51:31.769 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/sounds/menu/select.wav
+00:51:31.774 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/sounds/menu/back.wav
+00:51:31.776 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/sounds/menu/press.wav
+00:51:31.778 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/fonts/Copperplate_Gothic_Light_Regular.ttf
+00:51:31.793 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/fonts/lucida_console.ttf
+00:51:31.796 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/css/fxgl.css
+00:51:31.797 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/icons/fxgl_icon.png
+00:51:31.820 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/css/fxgl_dark.css
+00:51:31.838 [FXGL Launcher Thread     ] DEBUG FXGLDisplay          - Target size: DoubleProperty [value: 400.0] x DoubleProperty [value: 280.0] @ 1.0
+00:51:31.839 [FXGL Launcher Thread     ] DEBUG FXGLDisplay          - New size:    400.0 x 280.0 @ DoubleProperty [value: 1.0]
+00:51:31.839 [FXGL Launcher Thread     ] DEBUG FXGLDisplay          - Service [Display] initialized
+00:51:31.840 [FXGL Launcher Thread     ] DEBUG FXGLDisplay          - Using CSS: CSS(externalForm=jar:file:/Users/FelixWu/Downloads/fxgl-0.3.1-uber.jar!/assets/ui/css/fxgl_dark.css)
+00:51:31.840 [FXGL Launcher Thread     ] DEBUG InitScenesTask       - Injecting loadingScene & gameScene
+00:51:31.841 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Running task: InitEventHandlersTask
+00:51:31.844 [FXGL Launcher Thread     ] DEBUG FXGLMasterTimer      - Service [MasterTimer] initialized
+00:51:31.848 [FXGL Launcher Thread     ] DEBUG FXGLAudioPlayer      - Service [AudioPlayer] initialized
+00:51:31.849 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - scanForServiceListeners
+00:51:31.849 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - FXGLListener: interface com.almasb.fxgl.service.MasterTimer
+00:51:31.849 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - FXGLListener: interface com.almasb.fxgl.service.Input
+00:51:31.849 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: interface com.almasb.fxgl.service.AudioPlayer
+00:51:31.850 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: interface com.almasb.fxgl.service.MasterTimer
+00:51:31.850 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: interface com.almasb.fxgl.service.Input
+00:51:31.850 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: interface com.almasb.fxgl.service.Display
+00:51:31.850 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: class com.almasb.fxgl.gameplay.AchievementManager
+00:51:31.851 [FXGL Launcher Thread     ] DEBUG AchievementManager   - Service [AchievementManager] initialized
+00:51:31.851 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: class com.almasb.fxgl.service.impl.quest.FXGLQuestServiceProvider
+00:51:31.851 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - NotificationListener: interface com.almasb.fxgl.service.AudioPlayer
+00:51:31.852 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - AchievementListener: interface com.almasb.fxgl.service.NotificationService
+00:51:31.857 [FXGL Launcher Thread     ] DEBUG SlidingNotificationService - Service [NotificationService] initialized
+00:51:31.860 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Running task: InitProfilerTask
+00:51:31.864 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Starting new game
+00:51:31.866 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Initializing App
+00:51:31.867 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Pausing main loop
+00:51:31.868 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - State: STARTUP -> PAUSED
+00:51:31.868 [FXGL Launcher Thread     ] DEBUG FXGLMasterTimer      - Stopping master timer
+00:51:31.869 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Clearing active input actions
+00:51:31.869 [FXGL Launcher Thread     ] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+00:51:31.870 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - Resetting FXGL application
+00:51:31.871 [FXGL Launcher Thread     ] DEBUG GameWorld            - Resetting game world
+00:51:31.871 [FXGL Launcher Thread     ] DEBUG EntityWorld          - Resetting entity world
+00:51:31.873 [FXGL Launcher Thread     ] DEBUG PhysicsWorld         - Resetting physics world
+00:51:31.873 [FXGL Launcher Thread     ] DEBUG GameScene            - Resetting game scene
+00:51:31.873 [FXGL Launcher Thread     ] DEBUG FXGLMasterTimer      - Resetting ticks and clearing all actions
+00:51:31.874 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Clearing active input actions
+00:51:31.874 [FXGL Launcher Thread     ] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=RESET]
+00:51:31.960 [FXGL Launcher Thread     ] DEBUG FXGLApplication      - State: PAUSED -> LOADING
+00:51:32.000 [FXGL Launcher Thread     ] INFO  FXGLApplication      - Game configuration took:  0.646 sec
+00:51:32.000 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Assets
+00:51:32.002 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Game
+00:51:32.002 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Injecting gameState
+00:51:32.089 [JavaFX Application Thread] DEBUG FXGLDisplay          - Showing stage
+00:51:32.089 [JavaFX Application Thread] DEBUG FXGLDisplay          - Root size: 400.0x280.0
+00:51:32.089 [JavaFX Application Thread] DEBUG FXGLDisplay          - Scene size: 400.0x280.0
+00:51:32.089 [JavaFX Application Thread] DEBUG FXGLDisplay          - Stage size: 400.0x302.0
+00:51:32.143 [FastClasspathScanner-worker-0] DEBUG InitAppTask          - @SetEntityFactory: class com.felixwu.td.TdFactory
+00:51:32.166 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/text/level1.txt
+00:51:32.201 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/backgroundG.png
+00:51:32.209 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.210 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.211 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.212 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.215 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.220 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.222 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.223 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.226 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.227 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/backgroundP.png
+00:51:32.231 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.232 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.233 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.234 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.236 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.238 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.239 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.239 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.240 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.241 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.242 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.242 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.243 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.244 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.245 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.245 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.246 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.247 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.248 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.248 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.249 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.250 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.250 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.251 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.251 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.252 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.253 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.254 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.255 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.256 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.256 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.257 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.258 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.259 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.260 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.260 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.261 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.261 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.262 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.262 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.263 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.265 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.266 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.267 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.267 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.268 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.268 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.269 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundP.png
+00:51:32.269 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/home.jpg
+00:51:32.282 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.283 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.283 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.284 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.285 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.285 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.286 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.286 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.286 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.287 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/backgroundG.png
+00:51:32.287 [FXGL Background Thread 1 ] DEBUG GameWorld            - Resetting game world
+00:51:32.287 [FXGL Background Thread 1 ] DEBUG EntityWorld          - Resetting entity world
+00:51:32.287 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Resetting physics world
+00:51:32.288 [FXGL Background Thread 1 ] DEBUG GameScene            - Resetting game scene
+00:51:32.288 [FXGL Background Thread 1 ] DEBUG GameWorld            - Setting level: com.almasb.fxgl.gameplay.Level@6676700a
+00:51:32.292 [FXGL Background Thread 1 ] DEBUG GameScene            - Creating render group for layer: TOP(2147483647)
+00:51:32.311 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Physics
+00:51:32.312 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing UI
+00:51:32.312 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initialization Complete
+00:51:32.312 [FXGL Background Thread 1 ] INFO  InitAppTask          - Game initialization took: 0.312 sec
+00:51:32.313 [JavaFX Application Thread] DEBUG FXGLApplication      - Resuming main loop
+00:51:32.314 [JavaFX Application Thread] DEBUG FXGLApplication      - State: LOADING -> PLAYING
+00:51:32.326 [JavaFX Application Thread] DEBUG FXGLMasterTimer      - Starting master timer
+00:51:32.326 [JavaFX Application Thread] DEBUG FXGLInput            - Clearing active input actions
+00:51:32.326 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=RESUME]
+00:51:33.389 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/ufo.png
+00:51:33.439 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/tower1.png
+00:51:33.448 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/bullet.png
+00:51:33.972 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:34.423 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/ufo.png
+00:51:34.490 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:35.007 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:35.439 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/ufo.png
+00:51:35.524 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:36.040 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:36.209 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/tower1.png
+00:51:36.224 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:36.457 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/ufo.png
+00:51:36.558 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:36.740 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:36.792 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: com.felixwu.td.event.EnemyKilled[source=javafx.event.Event$$Lambda$73/2027947499@3d898fe6]
+00:51:37.074 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:37.258 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:37.475 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/ufo.png
+00:51:37.591 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:37.774 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:37.825 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: com.felixwu.td.event.EnemyKilled[source=javafx.event.Event$$Lambda$73/2027947499@3d898fe6]
+00:51:38.108 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:38.291 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:38.492 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/ufo.png
+00:51:38.626 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:38.809 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:38.842 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: com.felixwu.td.event.EnemyKilled[source=javafx.event.Event$$Lambda$73/2027947499@3d898fe6]
+00:51:39.004 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/tower1.png
+00:51:39.009 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:39.142 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:39.326 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:39.508 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/ufo.png
+00:51:39.525 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:39.642 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: com.felixwu.td.event.EnemyKilled[source=javafx.event.Event$$Lambda$73/2027947499@3d898fe6]
+00:51:39.659 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:39.709 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: com.felixwu.td.event.EnemyKilled[source=javafx.event.Event$$Lambda$73/2027947499@3d898fe6]
+00:51:39.843 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:40.043 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:40.176 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:40.359 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:40.526 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/ufo.png
+00:51:40.560 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:40.626 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: com.felixwu.td.event.EnemyKilled[source=javafx.event.Event$$Lambda$73/2027947499@3d898fe6]
+00:51:40.693 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:40.876 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:41.076 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:41.193 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: com.felixwu.td.event.EnemyKilled[source=javafx.event.Event$$Lambda$73/2027947499@3d898fe6]
+00:51:41.210 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:41.393 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:41.542 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/ufo.png
+00:51:41.593 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:41.726 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:41.744 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: com.felixwu.td.event.EnemyKilled[source=javafx.event.Event$$Lambda$73/2027947499@3d898fe6]
+00:51:41.910 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:42.110 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:42.244 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:42.427 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:42.560 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/ufo.png
+00:51:42.627 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:42.760 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:42.944 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:43.144 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:43.278 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:43.294 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: com.felixwu.td.event.EnemyKilled[source=javafx.event.Event$$Lambda$73/2027947499@3d898fe6]
+00:51:43.460 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:43.661 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:43.794 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/bullet.png
+00:51:43.795 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: com.felixwu.td.event.EnemyKilled[source=javafx.event.Event$$Lambda$73/2027947499@3d898fe6]
+00:51:43.813 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: DisplayEvent[type=DIALOG_OPENED]
+00:51:43.813 [JavaFX Application Thread] DEBUG FXGLApplication      - Pausing main loop
+00:51:43.813 [JavaFX Application Thread] DEBUG FXGLApplication      - State: PLAYING -> PAUSED
+00:51:43.813 [JavaFX Application Thread] DEBUG FXGLMasterTimer      - Stopping master timer
+00:51:43.813 [JavaFX Application Thread] DEBUG FXGLInput            - Clearing active input actions
+00:51:43.813 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+00:51:43.813 [JavaFX Application Thread] DEBUG FXGLInput            - Clearing active input actions
+00:51:44.880 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: DisplayEvent[type=DIALOG_CLOSED]
+00:51:44.880 [JavaFX Application Thread] DEBUG FXGLApplication      - Resuming main loop
+00:51:44.880 [JavaFX Application Thread] DEBUG FXGLApplication      - State: PAUSED -> PLAYING
+00:51:44.880 [JavaFX Application Thread] DEBUG FXGLMasterTimer      - Starting master timer
+00:51:44.880 [JavaFX Application Thread] DEBUG FXGLInput            - Clearing active input actions
+00:51:44.880 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=RESUME]
+00:51:44.880 [JavaFX Application Thread] DEBUG FXGLApplication      - Exiting FXGL application
+00:51:44.881 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=EXIT]
+00:51:44.881 [JavaFX Application Thread] DEBUG FXGL                 - Saving FXGL system data
+00:51:44.882 [JavaFX Application Thread] DEBUG IOTask               - Executing task: writeDataTask(system/fxgl.bundle)
+00:51:44.884 [JavaFX Application Thread] DEBUG FS                   - Writing to: system/fxgl.bundle
+00:51:44.887 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: writeDataTask(system/fxgl.bundle)
+00:51:44.887 [JavaFX Application Thread] DEBUG FXGLApplication      - Closing FXGL logger and exiting JavaFX
