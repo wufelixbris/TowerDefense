@@ -8,7 +8,6 @@ import com.almasb.fxgl.entity.GameEntity;
 import com.almasb.fxgl.entity.control.ProjectileControl;
 import com.almasb.fxgl.time.LocalTimer;
 import com.felixwu.td.Config;
-import com.felixwu.td.TdFactory;
 import com.felixwu.td.TdType;
 import javafx.util.Duration;
 
@@ -28,7 +27,7 @@ public class TowerControl extends AbstractControl {
 
     @Override
     public void onUpdate(Entity entity, double v) {
-        if(shootTimer.elapsed(Duration.seconds(0.5))){
+        if(shootTimer.elapsed(Duration.seconds(1))){
             FXGL.getApp()
                     .getGameWorld()
                     .getClosestEntity(entity, e-> Entities.getType(e).isType(TdType.ENEMY))

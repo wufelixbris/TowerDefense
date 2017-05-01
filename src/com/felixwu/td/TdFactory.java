@@ -4,14 +4,16 @@ import com.almasb.fxgl.annotation.SetEntityFactory;
 import com.almasb.fxgl.annotation.SpawnSymbol;
 import com.almasb.fxgl.annotation.Spawns;
 import com.almasb.fxgl.app.FXGL;
+import com.almasb.fxgl.ecs.Entity;
 import com.almasb.fxgl.entity.*;
 import com.almasb.fxgl.entity.component.CollidableComponent;
+import com.almasb.fxgl.entity.control.ExpireCleanControl;
 import com.almasb.fxgl.entity.control.OffscreenCleanControl;
 import com.felixwu.td.component.HPComponent;
 import com.felixwu.td.control.EnemyControl;
 import com.felixwu.td.control.TowerControl;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.Rectangle;
+import javafx.scene.effect.BlendMode;
+import javafx.util.Duration;
 
 /**
  * Created by FelixWu on 27/4/2017.
@@ -25,7 +27,7 @@ public class TdFactory implements TextEntityFactory {
         return Entities.builder()
                 .from(data)
                 .type(TdType.BLOCK)
-                .viewFromNodeWithBBox(FXGL.getAssetLoader().loadTexture("backgroundG.png"))
+                .viewFromTextureWithBBox("backgroundG.png")
                 .build();
     }
 
@@ -35,7 +37,7 @@ public class TdFactory implements TextEntityFactory {
         return Entities.builder()
                 .from(data)
                 .type(TdType.PATH)
-                .viewFromNodeWithBBox(FXGL.getAssetLoader().loadTexture("backgroundP.png"))
+                .viewFromTextureWithBBox("backgroundP.png")
                 .build();
     }
 
@@ -45,17 +47,16 @@ public class TdFactory implements TextEntityFactory {
         return Entities.builder()
                 .from(data)
                 .type(TdType.HOME)
-                .viewFromNodeWithBBox(FXGL.getAssetLoader().loadTexture("home.jpg"))
-                .with(new CollidableComponent(true), new HPComponent(Config.HOME_HP))
+                .viewFromTextureWithBBox("home.jpg")
+                .with(new CollidableComponent(true))
                 .build();
     }
-
     @Spawns("Enemy")
     public GameEntity spawnEnemy(SpawnData data){
         return Entities.builder()
                 .from(data)
                 .type(TdType.ENEMY)
-                .viewFromNodeWithBBox(FXGL.getAssetLoader().loadTexture("ufo.png"))
+                .viewFromTextureWithBBox("ufo.png")
                 .with(new CollidableComponent(true), new HPComponent(Config.ENEMY_HP))
                 .with(new EnemyControl())
                 .build();
@@ -65,7 +66,7 @@ public class TdFactory implements TextEntityFactory {
         return Entities.builder()
                 .from(data)
                 .type(TdType.TOWER)
-                .viewFromNodeWithBBox(FXGL.getAssetLoader().loadTexture("tower1.png"))
+                .viewFromTextureWithBBox("tower1.png")
                 .with(new TowerControl())
                 .build();
     }
@@ -74,10 +75,23 @@ public class TdFactory implements TextEntityFactory {
         return Entities.builder()
                 .from(data)
                 .type(TdType.BULLET)
-                .viewFromNodeWithBBox(FXGL.getAssetLoader().loadTexture("bullet.png"))
+                .viewFromTextureWithBBox("bullet.png")
                 .with(new CollidableComponent(true))
                 .with(new OffscreenCleanControl())
                 .build();
+    }
+
+    @Spawns("Explosion")
+    public Entity newExplosion(SpawnData data) {
+        GameEntity explosion = Entities.builder()
+                .at(data.getX() - 20, data.getY() - 20)
+                .viewFromNode(FXGL.getAssetLoader().loadTexture("explosion.png", 80 * 48, 80).toAnimatedTexture(48, Duration.seconds(1.5)))
+                .with(new ExpireCleanControl(Duration.seconds(1.3)))
+                .build();
+
+        explosion.getView().setBlendMode(BlendMode.ADD);
+
+        return explosion;
     }
 
     @Override

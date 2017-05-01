@@ -11,9 +11,6 @@ import com.almasb.fxgl.entity.component.PositionComponent;
 import com.felixwu.td.Config;
 import com.felixwu.td.Main;
 import com.felixwu.td.TdType;
-import com.felixwu.td.component.HPComponent;
-import com.felixwu.td.event.EnemyReachedGoal;
-import javafx.geometry.Point2D;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,9 +37,10 @@ public class EnemyControl extends AbstractControl {
 
     @Override
     public void onUpdate(Entity entity, double tpf) {
-        //super.onUpdate(entity, tpf);
 
-        speed = tpf * 60 * 5;
+        speed = tpf * 60 * 3;
+
+        //shortest route calculator
 
         if (path.isEmpty()) {
             if (grid == null) {
@@ -88,17 +86,6 @@ public class EnemyControl extends AbstractControl {
 
         if (position.getX() == nextX && position.getY() == nextY) {
             path.remove(0);
-        }
-
-        HPComponent hp = home.getComponentUnsafe(HPComponent.class);
-
-        if(position.getX()>=target.getX() && position.getY()>=target.getY()){
-            hp.setValue(hp.getValue() - Config.ENEMY_DAMAGE);
-
-            if(hp.getValue()==0){
-                FXGL.getEventBus().fireEvent(new EnemyReachedGoal());
-            }
-            entity.removeFromWorld();
         }
 
     }
